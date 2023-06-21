@@ -15,7 +15,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair:wght@500;600&family=Roboto+Slab:wght@350&family=Roboto:wght@100&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css"> 
-
+<script src="javascript.js"></script>
 </head>
 
 
@@ -30,12 +30,11 @@
             </nav>
         </header>
         <main>
-            <div class="img">
-                <img src="photo.jpg" alt="My Photo">
-            </div>
+            
+            <img class="topimg" src="photo.jpg" alt="My Photo">
             <h1>Harsh Gawali</h1>
             <h1>Software Engineer</h2>
-            <p class="info">Hi! I am Harsh, 3rd yr I.T. Engineer from V.E.S.I.T. and this is my first custom made website. You will find all my Academic as well as other skills in here. Hope you like it! </p>
+            <p class="infoo">Hi! I am Harsh, 3rd yr I.T. Engineer from V.E.S.I.T. and this is my first custom made website. You will find all my Academic as well as other skills in here. Hope you like it! </p>
 
             <h2>Academic Qualifications</h2>
             <ol><li>10th CBSE: 92%</li>
@@ -63,7 +62,34 @@
             <p>You can view my Resume at the below link!</p>
             <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ae2706ba-075d-3592-bd36-28e73728725e" class="bottomlink" target="_blank">Click me!</a>
     
-            
+            <div class="slideshow-container fade">
+
+                <!-- Full images with numbers and message Info -->
+                <div class="Containers">
+                  <img src="kal3.jpg" style="width:100%">
+                </div>
+              
+                <div class="Containers">
+                  <img src="kal1.jpg" style="width:100%">
+                </div>
+              
+                <div class="Containers">
+                  <img src="kal2.jpg" style="width:100%">
+                </div>
+              
+                <!-- Back and forward buttons -->
+                <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+              
+              <!-- The circles/dots -->
+              <div style="text-align:center">
+                <span class="dots" onclick="currentSlide(1)"></span>
+                <span class="dots" onclick="currentSlide(2)"></span>
+                <span class="dots" onclick="currentSlide(3)"></span>
+              </div> 
+              <div class="kal">KAL's cartoons</div>
         </main>
     </div>
     <footer>
