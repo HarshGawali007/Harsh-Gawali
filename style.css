@@ -315,6 +315,7 @@ margin-top:290px ;
     top: 10px;
     }
     .Containers {
+        display: none;
         }
 }
 
