@@ -239,7 +239,18 @@ margin-top:290px ;
         color: rgb(46, 15, 147);
         font-family: 'Roboto slab', sans-serif;
         font-size: 27px;
+            overflow: hidden;
+          white-space: nowrap;
+          width: 0;
+          animation: typing;
+          animation-duration: 2s;
+          animation-timing-function: steps(90, 50);
+          animation-fill-mode: forwards;
         }
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+          }
     main {
         padding-left: 20px;
         padding-right: 20px;
@@ -316,6 +327,9 @@ margin-top:290px ;
     }
     .Containers {
         display: none;
+        }
+        footer {
+            font-size: 15px;
         }
 }
 
